@@ -70,8 +70,8 @@ Each level contains JPEG tiles named as `{col}_{row}.jpeg`.
 
 | Format              | Library Used |
 |---------------------|--------------|
-| `.svs`, `.tif` (WSI) | OpenSlide     |
-| `.jpg`, `.png`, `.tif` | Pillow       |
+| `.ndpi`, `.svs`, `.tif` (pyramidal), etc | OpenSlide     |
+| `.jpg`, `.png`, `.tif` (non-pyramidal), etc | Pillow       |
 
 ---
 
@@ -105,4 +105,4 @@ This script is provided under the MIT License.
 
 - [OpenSlide](https://openslide.org/)
 - [Pillow (PIL)](https://python-pillow.org/)
-- [OpenSeadragon](https://openseadragon.github.io/)
+- [ChatGPT](https://chatgpt.com/), for both writing the script and most of this README
