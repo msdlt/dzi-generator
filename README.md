@@ -15,13 +15,15 @@ This Python script converts standard images or **Whole Slide Images (WSI)** into
 
 ## 🛠 Requirements
 
+Install Python (https://www.python.org/downloads/windows/), making sure you do a custom installation and tick the option to add Python to PATH.
+
+Install [OpenSlide](https://openslide.org/download/), e.g. by downloading and extracting the latest Windows binary, extracting it (e.g. to C:\openslide\ and adding the \bin directory to PATH (in System Variables within Environment Variables in Windows Settings).
+
 Install dependencies using pip:
 
 ```
 pip install openslide-python Pillow
 ```
-
-> **Note:** You must also have [OpenSlide](https://openslide.org/download/) installed on your system (e.g. `libopenslide` on Linux/macOS).
 
 ---
 
